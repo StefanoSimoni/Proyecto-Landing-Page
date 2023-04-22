@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.header-tittle {
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 110px;
+}
+
+.header-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.header-content-tittle {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: 800;
+}
+
+.header-content-text {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.sign-up {
+    width: 110px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.star-wars-img {
+    height: 230px;
+    width: 500px;
+}
