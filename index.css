@@ -5,6 +5,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-logo {
     height: 50px;
     width: auto;
@@ -16,8 +21,7 @@ body {
 
 .header-tittle {
     display: flex;
-    justify-content: center;
-    gap: 600px;
+    justify-content: space-around;
     padding-top: 20px;
     align-items: center;
 }
@@ -30,8 +34,7 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
     padding: 110px;
 }
 
@@ -66,6 +69,32 @@ body {
     cursor: pointer;
 }
 
+.star-wars-img {
+    height: 230px;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-news-tittle {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
 ul {
     list-style: none;
 }
@@ -73,9 +102,4 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
-}
-
-.star-wars-img {
-    height: 230px;
-    width: 500px;
 }
