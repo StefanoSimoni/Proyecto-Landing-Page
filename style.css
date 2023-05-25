@@ -80,19 +80,103 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 110px;
 }
 
 .latest-news-tittle {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.news-list {
+    display: flex;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 15px;
+    width: 150px;
+}
+
+figure img{
+    height: 150px;
+    width: 150px;
+    border: solid #3882f6 5px;
+    border-radius: 20px;
+}
+
+.leyend {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px;
+}
+
+.leyend-text {
+    font-size: 36px;
+    width: 900px;
+    font-style: oblique;
+}
+
+.sign {
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 110px;
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 40px;
+    width: 1000px;
+    border-radius: 10px;
+    border: none;
     align-items: center;
 }
 
-figure {
+.action-tittle {
+    font-size: 25px;
+    color: #e5e7eb;
+    font-weight: 800;
+}
+
+.action-desc {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.action-content .sign-up {
+    border: 2px solid white;
+    padding-top: 5px;
+    height: 50px;
+    width: 130px;
+}
+
+.footer {
+    background-color: #1f2937;
     display: flex;
-    flex-direction: column;
-    height: 100px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 20px;
 }
 
 ul {
